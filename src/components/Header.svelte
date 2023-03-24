@@ -1,9 +1,35 @@
 <div class="header">
-	<div class="textrow scrollleft">BRANDING, DIGITAL, UI &UX, ILLUSTRATIONS</div>
+	<div class="textrow">
+		<div class="scrollleft">
+			BRANDING, DIGITAL, UI &UX, ILLUSTRATIONS BRANDING, DIGITAL, UI &UX, ILLUSTRATIONS
+			ILLUSTRATIONS BRANDING, DIGITAL, UI &UX, ILLUSTRATIONS ILLUSTRATIONS BRANDING, DIGITAL, UI
+			&UX, ILLUSTRATIONS ILLUSTRATIONS BRANDING, DIGITAL, UI &UX, ILLUSTRATIONS ILLUSTRATIONS
+			BRANDING, DIGITAL, UI &UX, ILLUSTRATIONS ILLUSTRATIONS BRANDING, DIGITAL, UI &UX,
+			ILLUSTRATIONS ILLUSTRATIONS BRANDING, DIGITAL, UI &UX, ILLUSTRATIONS ILLUSTRATIONS BRANDING,
+			DIGITAL, UI &UX, ILLUSTRATIONS ILLUSTRATIONS BRANDING, DIGITAL, UI &UX, ILLUSTRATIONS
+			ILLUSTRATIONS BRANDING, DIGITAL, UI &UX, ILLUSTRATIONS
+		</div>
+	</div>
 
-	<div class="textrow scrollright">Design is an Adventure, Adventure is a Design</div>
+	<div class="textrow">
+		<div class="scrollright">
+			Design is an Adventure Design is an Adventure Design is an Adventure Design is an Adventure
+			Design is an Adventure Design is an Adventure Design is an Adventure Design is an Adventure
+			Design is an Adventure Design is an Adventure Design is an Adventure Design is an Adventure
+			Design is an Adventure
+		</div>
+	</div>
 
-	<div class="textrow scrollleft">come along with me, lets gets on with it</div>
+	<div class="textrow">
+		<div class="scrollleft">
+			come along with me, lets gets on with it come along with me, lets gets on with it come along
+			with me, lets gets on with it come along with me, lets gets on with it come along with me,
+			lets gets on with it come along with me, lets gets on with it come along with me, lets gets on
+			with it come along with me, lets gets on with it come along with me, lets gets on with it come
+			along with me, lets gets on with it come along with me, lets gets on with it come along with
+			me, lets gets on with it
+		</div>
+	</div>
 </div>
 
 <style>
@@ -22,28 +48,27 @@
 		color: #fefbf1;
 		font-family: 'uxum';
 		text-overflow: none;
-		width: 200vw;
 		border-bottom: 1px solid #fefbf1;
 		padding: 2rem 0;
+		position: relative;
+		display: flex;
 	}
 
 	@keyframes scrolltextleft {
-		from {
-			transform: translateX(0);
+		0% {
+			transform: translateX(-1000%);
 		}
-
-		to {
-			transform: translateX(-100%);
+		100% {
+			transform: translateX(0);
 		}
 	}
 
 	@keyframes scrolltextright {
-		from {
-			transform: translateX(-100%);
-		}
-
-		to {
+		0% {
 			transform: translateX(0);
+		}
+		100% {
+			transform: translateX(-1000%);
 		}
 	}
 
@@ -76,14 +101,22 @@
 	}
 
 	.scrollleft {
-		animation: scrolltextleft 10s;
-		animation-iteration-count: infinite;
-		animation-direction: alternate;
+		top: 0;
+		transform: translateX(100%);
+		width: 100%;
+		white-space: nowrap;
+		animation: scrolltextleft 300s linear infinite;
 	}
 
 	.scrollright {
-		animation: scrolltextright 10s;
-		animation-iteration-count: infinite;
-		animation-direction: alternate;
+		top: 0;
+		transform: translateX(100%);
+		width: 100%;
+		white-space: nowrap;
+		animation: scrolltextright 300s linear infinite;
+	}
+
+	.delay {
+		animation-delay: 15s;
 	}
 </style>

@@ -31,5 +31,40 @@
 		overflow: hidden;
 		display: grid;
 		grid-template-columns: 1.2fr 1fr;
+		padding: 80px;
+	}
+
+	h1 {
+		color: #121215;
+		font-family: 'Uxum';
+		font-size: 100px;
+		font-weight: 100;
+		max-width: 80%;
+	}
+
+	p {
+		color: #121215;
+		font-family: 'Uxum';
+		font-size: 24px;
+		font-weight: lighter;
+		line-height: 150%;
+		max-width: 80%;
+	}
+
+	li {
+		color: #121215;
+		font-family: 'Uxum';
+		font-size: 50px;
+		font-weight: lighter;
+		border-bottom: 1px solid #121215;
+		padding: 20px 0 20px 0;
+	}
+
+	ul {
+		border-top: 1px solid #121215;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		max-width: 80%;
 	}
 </style>
