@@ -13,9 +13,10 @@
 	<div class="Column2">
 		<h1>Skills</h1>
 		<ul>
-			<li>Branding</li>
-			<li>Digital & web</li>
-			<li>Illustrations</li>
+			<li><a href="/Branding">Branding</a></li>
+			<li><a href="/Branding">Digital & web</a></li>
+			<li><a href="/Branding">Illustrations</a></li>
+			<li><a href="/Branding">Photography</a></li>
 		</ul>
 	</div>
 </div>
@@ -25,8 +26,9 @@
 		background-color: #ffcc29;
 		min-height: 100vh;
 		min-width: 100%;
-		// background: url('purplecircle.svg') no-repeat;
-		background-position: 75% 20%;
+		background-image: url('/greentriangle.svg');
+		background-repeat: no-repeat;
+		background-position: 75% 100%;
 		border-top: 1px solid #fefbf1;
 		overflow: hidden;
 		display: grid;
@@ -52,12 +54,23 @@
 	}
 
 	li {
-		color: #121215;
 		font-family: 'Uxum';
 		font-size: 50px;
-		font-weight: lighter;
 		border-bottom: 1px solid #121215;
-		padding: 20px 0 20px 0;
+		font-weight: lighter;
+		padding: 20px 0 20px 48px;
+		background-image: url('/arrowright.svg');
+		background-repeat: no-repeat;
+		background-position: 0% 50%;
+		a {
+			text-decoration: none;
+			color: #121215;
+		}
+
+		&:hover {
+			margin-left: 32px;
+		}
+		transition: margin-left ease-in-out 0.4s;
 	}
 
 	ul {

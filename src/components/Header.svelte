@@ -35,9 +35,10 @@
 <style>
 	.header {
 		background-color: #1c1c20;
-		min-height: 100vh;
+		min-height: 72vh;
 		min-width: 100%;
-		background: url('/purplecircle.svg') no-repeat;
+		background-image: url('/purplecircle.svg');
+		background-repeat: no-repeat;
 		background-position: 75% 20%;
 		border-top: 1px solid #fefbf1;
 		overflow: hidden;
@@ -49,7 +50,7 @@
 		font-family: 'uxum';
 		text-overflow: none;
 		border-bottom: 1px solid #fefbf1;
-		padding: 2rem 0;
+		padding: 5vh 0;
 		position: relative;
 		display: flex;
 	}
