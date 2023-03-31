@@ -37,7 +37,7 @@
 		background-color: #1c1c20;
 		min-height: 100vh;
 		min-width: 100%;
-		background: url('purplecircle.svg') no-repeat;
+		background: url('/purplecircle.svg') no-repeat;
 		background-position: 75% 20%;
 		border-top: 1px solid #fefbf1;
 		overflow: hidden;
@@ -76,28 +76,28 @@
 		font-family: 'uxum';
 		font-style: normal;
 		font-weight: bold;
-		src: url('fonts/UxumGrotesque-Bold.woff') format('woff');
+		src: url('/fonts/UxumGrotesque-Bold.woff') format('woff');
 	}
 
 	@font-face {
 		font-family: 'uxum';
 		font-style: normal;
 		font-weight: normal;
-		src: url('fonts/UxumGrotesque-Regular.woff') format('woff');
+		src: url('/fonts/UxumGrotesque-Regular.woff') format('woff');
 	}
 
 	@font-face {
 		font-family: 'uxum';
 		font-style: italic;
 		font-weight: bold;
-		src: url('fonts/UxumGrotesqueItalic-Bold.woff') format('woff');
+		src: url('/fonts/UxumGrotesqueItalic-Bold.woff') format('woff');
 	}
 
 	@font-face {
 		font-family: 'uxum';
 		font-style: italic;
 		font-weight: normal;
-		src: url('fonts/UxumGrotesqueItalic-Regular.woff') format('woff');
+		src: url('/fonts/UxumGrotesqueItalic-Regular.woff') format('woff');
 	}
 
 	.scrollleft {
