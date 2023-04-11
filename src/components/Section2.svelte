@@ -28,7 +28,7 @@
 		min-width: 100%;
 		background-image: url('/greentriangle.svg');
 		background-repeat: no-repeat;
-		background-position: 75% 100%;
+		background-position: 45% 100%;
 		border-top: 1px solid #fefbf1;
 		overflow: hidden;
 		display: grid;

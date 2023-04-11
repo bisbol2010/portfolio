@@ -7,29 +7,25 @@
 
 	<div class="portfoliosection">
 		<div class="Column1">
-			<Projectcard title="theGuardian" SRC="JDSJDJ" Projectcard category="UX/UI" />
-			<Projectcard title="theGuardian" SRC="JDSJDJ" Projectcard category="UX/UI" />
-			<Projectcard title="theGuardian" SRC="JDSJDJ" Projectcard category="UX/UI" />
+			<Projectcard
+				title="90Z BACK"
+				src="/portfoliocover/pins-e1621903016303.png"
+				category="UX/UI"
+			/>
+			<Projectcard title="theGuardian" src="/portfoliocover/tote2.png" category="UX/UI" />
+			<Projectcard title="theGuardian" src="/portfoliocover/we-dey-go.png" category="UX/UI" />
 		</div>
 
 		<div class="Column2">
-			<h1>Skills</h1>
-			<ul>
-				<li><a href="/Branding">Branding</a></li>
-				<li><a href="/Branding">Digital & web</a></li>
-				<li><a href="/Branding">Illustrations</a></li>
-				<li><a href="/Branding">Photography</a></li>
-			</ul>
+			<Projectcard title="theGuardian" margintop="200px" src="JDSJDJ" category="UX/UI" />
+			<Projectcard title="theGuardian" src="JDSJDJ" category="UX/UI" />
+			<Projectcard title="theGuardian" src="JDSJDJ" category="UX/UI" />
 		</div>
 
-		<div class="Column2">
-			<h1>Skills</h1>
-			<ul>
-				<li><a href="/Branding">Branding</a></li>
-				<li><a href="/Branding">Digital & web</a></li>
-				<li><a href="/Branding">Illustrations</a></li>
-				<li><a href="/Branding">Photography</a></li>
-			</ul>
+		<div class="Column3">
+			<Projectcard title="theGuardian" src="JDSJDJ" category="UX/UI" />
+			<Projectcard title="theGuardian" src="JDSJDJ" category="UX/UI" />
+			<Projectcard title="theGuardian" src="JDSJDJ" category="UX/UI" />
 		</div>
 	</div>
 </div>
@@ -39,7 +35,6 @@
 		background-color: #f6eee4;
 		min-height: 100vh;
 		min-width: 100%;
-		background-image: url('/greentriangle.svg');
 		background-repeat: no-repeat;
 		background-position: 75% 100%;
 		border-top: 1px solid #fefbf1;
@@ -49,6 +44,9 @@
 
 	.portfoliosection {
 		display: grid;
+		gap: 40px;
+		max-width: 100%;
+		min-width: 0;
 		grid-template-columns: 1fr 1fr 1fr;
 	}
 
